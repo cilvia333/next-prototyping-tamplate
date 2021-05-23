@@ -19,7 +19,7 @@
     "react-dom": "^17.0.1",
     "react-use": "^17.2.4",
     "ress": "^4.0.0",
-    "simple-icons": "^4.20.0",
+    "simple-icons": "4.25.0",
     "tailwindcss": "^2.1.2",
     "twin.macro": "^2.3.3"
   },
