@@ -21,7 +21,7 @@
     "ress": "^4.0.0",
     "simple-icons": "^4.20.0",
     "tailwindcss": "^2.1.2",
-    "twin.macro": "^2.3.3"
+    "twin.macro": "2.8.2"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.3.0",
