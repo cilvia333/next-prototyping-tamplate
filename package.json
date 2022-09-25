@@ -32,7 +32,7 @@
     "@types/simple-icons": "^4.17.0",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
-    "autoprefixer": "^10.2.5",
+    "autoprefixer": "10.4.12",
     "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.2.0",
