@@ -2404,10 +2404,47 @@ language-tags@^1.0.5:
   dependencies:
     language-subtag-registry "~0.3.2"
 
-lefthook@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/lefthook/-/lefthook-0.0.1.tgz#0b70628fc3bf610ab5417e1927c75624021ca59e"
-  integrity sha512-2ggyyCuCxZA8xTHSNEo2H8PR1Tz45w1n26uIH3AIPV4ASw4zak1HArrMIwgVedrjcqpBIygCgzr6b0I9TU0wUw==
+lefthook-darwin-arm64@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/lefthook-darwin-arm64/-/lefthook-darwin-arm64-0.0.4.tgz#6a7989c089a75a88535e133e1776379f1488e27e"
+  integrity sha512-A3fZObBSjSd2w8ssVdiXD9LzZM8RyddpxMXXbpf/B6AKbC+vhvjCuCrL7G3zJNF/LUXkYZIpxrOH8IlmWRzFSQ==
+
+lefthook-darwin-x64@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/lefthook-darwin-x64/-/lefthook-darwin-x64-0.0.4.tgz#0023123ede27ee446f5240eadf99848a44c8c90d"
+  integrity sha512-IOACO/NqHl/rqZPxVlw3thl4QbOob8bsbJK3DQeVek8lpmu+q0bnUJCouTTXOCzusqf1CpZ9yZR0Qb9ho/PDNA==
+
+lefthook-linux-arm64@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/lefthook-linux-arm64/-/lefthook-linux-arm64-0.0.4.tgz#d26a3e359bdaf367198a63f6cb0916e27209fef6"
+  integrity sha512-WDPBRavCLqrKrxXfHc8vYINCN0DXHpgvot4jMz/NHmU8/zheH0VMZehO2sH2Hf0Ao9r1P43R4UvItlYq5wGzZA==
+
+lefthook-linux-x64@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/lefthook-linux-x64/-/lefthook-linux-x64-0.0.4.tgz#eef12ddaf1c865e8e3a4c861ecfe5a9ea500eea4"
+  integrity sha512-PTiv/doJ+OShnHyzzbnXppZ3ipdLyRj9Xv3TlYoXvk4ss9/IWohRgYvbK2utjhvRO+i21lKJY+HxiVDWoQnQ2w==
+
+lefthook-windows-arm64@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/lefthook-windows-arm64/-/lefthook-windows-arm64-0.0.4.tgz#b6b67979fd139c0d298a1ede59abebae27a4f334"
+  integrity sha512-0TmYLaZoWz1GdlW8956DRjiuON3TxycCmQCEZVi+fsb6llUjxfCEwX8d7GbekpDUd68nx64Qa4lyF66zreiSgA==
+
+lefthook-windows-x64@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/lefthook-windows-x64/-/lefthook-windows-x64-0.0.4.tgz#5139f7850445ff441d0fb7ac817bc054df2099cf"
+  integrity sha512-7AaZNEI/QHgq1XloG26MI6ePL77bRme5MiNCFZI4UKwDo22Rx6KkX1Wf9vCgm52hvGLl55J49u0GqcdatuyJdw==
+
+lefthook@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/lefthook/-/lefthook-0.0.4.tgz#2311e01d5826f7fcc67bc1d50cc4271a7d65a43b"
+  integrity sha512-BIDqyvIem6R8rw82wAXpiR1Ey9D71SIb48nhsAjVyBe36FLpb0RifSRDb+YX/JyAL2sqyzLdzv4eIWoLhaYAYg==
+  optionalDependencies:
+    lefthook-darwin-arm64 "0.0.4"
+    lefthook-darwin-x64 "0.0.4"
+    lefthook-linux-arm64 "0.0.4"
+    lefthook-linux-x64 "0.0.4"
+    lefthook-windows-arm64 "0.0.4"
+    lefthook-windows-x64 "0.0.4"
 
 levn@^0.4.1:
   version "0.4.1"
